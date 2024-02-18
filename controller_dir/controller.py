@@ -8,10 +8,12 @@ session = Session()
 # CREATING THE USER PARAMETERS
 ################################################################################
 class User:
+    
     '''This class will take all the parameters needed for shaping the User.
     Such as password, email and name.
     This class will be called by the SystemManagement class and the final user
     will not have access to it.'''
+    
     def _get_name(self) -> str:
         while True:
             try:
@@ -100,10 +102,12 @@ class User:
 # CREATING THE SYSTEM MANAGEMENT THAT RECEIVES THE USER DATA
 ################################################################################
 class SystemManagement:
+   
     '''This class will register the parameters acquired by the User's Class and
     make the CRUD (Create, Read, Update, Delete) operations with it.
     There is a module called Sign In, in case the user is already registered
     they can access their Social Media Menu to post, read and delete data.'''
+   
     def register(self, user_data: UserDb) -> None:
         try:
             user = UserDb(name=user_data.name,
