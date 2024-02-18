@@ -1,4 +1,4 @@
-<h1 align="center">🤳 Small Socia Media</h1>
+<h1 align="center">🤳 Small Social Media</h1>
 
 ### 📝 DESCRIPTION
 
